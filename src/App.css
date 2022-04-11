@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.spacing {
+    padding: 0 12%;
+}
+
+.menuMobileBG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-xmark {
+    color: #ffffff;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+}
+
+.fa-xmark:hover {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.hideModal {
+    display: none !important;
+}
+
+.showModal {
+    display: flex;
+}
+
+.buttonHamburger {
+    color: #FFFFFF;
+
+
+
+}
+
+.mobileNav {
+    display: none;
+    padding: 0 5%;
+}
+
+@media (max-width:1150px) {
+    .mobileNav {
+        display: block;
+    }
+
+    .menuDesktop {
+        display: none;
+    }
+}
+
+.menuMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.navMobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+
+}
+
+
+
+
+
+
+.logoName {
+
+    width: 30%;
+    height: 44px;
+    left: 80px;
+    top: 9px;
+
+    display: inline-block;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 180%;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #ffffff;
+
+}
+
+
+.logoYText {
+    display: inline-block;
+    width: auto;
+
+}
+
+.c-white {
+    color: #fff;
+}
+
+.newInput {
+    display: inline-block;
+}
+
+.input {
+    display: inline-block;
+    border-radius: 50px;
+    width: 50%;
+    height: 30px;
+    margin: 0 10px;
+    background-image: url(./img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+
+.vector {
+    display: inline-block;
+}
+
+
+.games {
+
+    display: inline-block;
+    padding: 2%;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150%;
+    line-height: 25px;
+
+    color: #ffffff;
+
+}
+
+.nft {
+    padding: 1%;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 25px;
+
+    color: #ffffff;
+}
+
+
+.token {
+
+    padding: 1%;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 25px;
+
+    color: #ffffff;
+}
+
+.swap {
+    padding: 1%;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 25px;
+
+    color: #ffffff;
+}
+
+.login {
+    padding: 1%;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 25px;
+
+    color: #ffffff;
+}
+
+.connectWallet {
+    padding: 1%;
+}
+
+.botonToConnect {
+    width: 176px;
+    height: 40px;
+    background: #1ACA29;
+    border-radius: 50px;
+
+    /* Connect wallet */
+
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.user {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.back {
+    background-image: url('./img/background.png');
+    background-size: cover;
+    padding: 12%;
+    width: 100%;
+}
+
+.playText {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 42px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+
+.textBall {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 57px;
+
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textBack {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botonPlay {
+    width: 250px;
+    height: 70px;
+    background: #BE05FF;
+    border-radius: 43px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 200%;
+}
+
+.blueball {
+    display: inline-block;
+    margin-top: -18px
+}
+
+.Background {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    background: linear-gradient(201.51deg, #FF30C3 17.04%, #910BD1 88.82%);
+    -webkit-background-ip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+
+.connectWallet2 {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 42px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+
+.botonToConnect2 {
+    width: 250px;
+    height: 70px;
+    background: #1ACA29;
+    border-radius: 42.8571px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 200%;
+    margin-right: 2%;
+}
+
+
+.ourPartners {
+    /* Our Partners */
+
+    width: 386px;
+    height: 59px;
+
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 59px;
+    text-transform: uppercase;
+
+    color: #BE05FF;
+}
+
+.divPartners {
+    display: inline-block;
+    height: 240px;
+    margin-left: 8px;
+    margin-right: 2px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 160px;
+
+}
+
+.bakWhite {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 275px;
+}
+
+.cardNew {
+    padding-top: 63px;
+}
+
+/* .divCard {
+    border-radius: ;
+} */
+
+.textCard {
+    padding-right: 180px;
+    /* SANDORA.IO */
+
+
+    width: 207.39px;
+    height: 37px;
+
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 29.598px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+.buttonCard {
+    /* Rectangle 7 */
+
+    width: 130.88px;
+    height: 43.41px;
+
+    background: #BB1CFB;
+    border-radius: 24.665px;
+    /* Join */
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24.598px;
+    line-height: 37px;
+    color: #FFFFFF;
+    float: right;
+
+}
+
+.textCard2 {
+    padding-right: 200px;
+    padding-top: 5px;
+    /* NFTs Marketplace Platform on the Solana Chain Network */
+
+    width: 385px;
+    height: 42px;
+
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.7722px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.containersPartners {
+    text-align: center;
+}
+
+.backCard {
+    background-image: url('./img/Rectangle 6 (1).png');
+    padding: 40px;
+    width: 100%;
+}
+
+.sandora {
+    display: inline-block;
+    background-image: url('./img/Partnerscard1.png');
+    padding: 25%;
+    height: 10vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+
+
+.nftItems {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 59px;
+
+    color: #FFFFFF;
+}
+
+.items {
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    padding: 1%;
+}
+
+.containItems {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardGame {
+    background-image: url('./img/GAME A.png');
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+    border-radius: 30px;
+}
+
+.cardGameB {
+    background-image: url('./img/unsplash_1DjbGRDh7-E.png');
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+    border-radius: 30px;
+}
+
+.cardGameC {
+    background-image: url('./img/unsplash_qge7llyp7cc.png');
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+    border-radius: 30px;
+}
+
+.gamess {
+    width: 167px;
+    height: 59px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 59px;
+
+    color: #FFFFFF;
+}
+
+.gamesText {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 114px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FBD615;
+}
+
+.buttonGames {
+    width: 250px;
+    height: 75px;
+
+    background: #FBB820;
+    border-radius: 43px;
+
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 200%;
+    margin-top: 20%;
+}
+
+
+
+
+.gamesBText {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 114px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #25F603;
+}
+
+.buttonGamesB {
+
+    width: 250px;
+    height: 75px;
+
+    background: #0E8CFF;
+    border-radius: 43px;
+
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 200%;
+    margin-top: 20%;
+}
+
+.gamesCText {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 114px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+
+.buttonGamesC {
+    width: 250px;
+    height: 75px;
+    background: #DA0404;
+    border-radius: 43px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 200%;
+    margin-top: 20%;
+}
+
+
+.navbar {
+    background-color: black;
+
+}
+
+@media (max-width: 678px) and (min-width: 500px) {
+    .logoName {
+        width: 100px;
+        font-size: 16px;
+        top: 100px;
+        margin-top: 200px;
+    }
+}
+
+
+
+
+.logo {
+    /* IMG_1358 2 */
+    text-align: center;
+    width: 115px;
+    height: 105px;
+    left: 50em;
+    display: inline-block;
+    border-radius: 1158.33px;
+}
+
+.textFooter {
+    /* METASANDO */
+
+
+    width: 270px;
+    height: 51px;
+    display: inline-block;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 51px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+
+.textDown {
+    /* Metaverse Plaform Power by Metasando */
+
+    width: 354px;
+    height: 23px;
+
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+
+.textFooter2 {
+    /* Marketplace NFTs Metaverse */
+
+    width: 205.97px;
+    height: 151px;
+
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.8684px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+.textFooter22 {
+    /* Marketplace NFTs Metaverse */
+
+    color: #BE05FF;
+}
+
+.divFotter {
+    position: relative;
+    text-align: center;
+}
+
+.textFooter3 {
+    width: 205.97px;
+    height: 151px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.8684px;
+    line-height: 25px;
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+}
+
+.footerBack {
+    background-color: black;
+}
